@@ -6,8 +6,12 @@ module.exports = {
   },
   variants: {
     extend: {
-      backgroundColor: ['first']
+      backgroundColor: ['first'],
+      gridColumn: ['first'],
+      gridRow: ['first']
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
