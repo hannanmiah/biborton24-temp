@@ -8,7 +8,9 @@ module.exports = {
     extend: {
       backgroundColor: ['first'],
       gridColumn: ['first'],
-      gridRow: ['first']
+      gridRow: ['first'],
+      display: ['first'],
+      flexDirection: ['first']
     },
   },
   plugins: [
