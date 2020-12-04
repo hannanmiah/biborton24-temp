@@ -10,7 +10,8 @@ module.exports = {
       gridColumn: ['first'],
       gridRow: ['first'],
       display: ['first'],
-      flexDirection: ['first']
+      flexDirection: ['first'],
+      borderWidth: ['hover','focus']
     },
   },
   plugins: [

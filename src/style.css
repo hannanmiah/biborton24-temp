@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
 body {
     @apply box-border;
 }
 
 .container {
     @apply mx-auto my-2 p-2 sm:my-4 sm:mx-4 sm:p-4;
+}
+
+.font-baloo {
+    font-family: 'Baloo Da 2', cursive;
 }
