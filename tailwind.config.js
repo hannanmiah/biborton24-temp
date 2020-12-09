@@ -18,7 +18,8 @@ module.exports = {
       flexDirection: ['first'],
       borderWidth: ['hover', 'focus'],
       width: ['hover', 'focus'],
-      height: ['hover','focus']
+      height: ['hover', 'focus'],
+      transform: ['hover']
     },
   },
   plugins: [
