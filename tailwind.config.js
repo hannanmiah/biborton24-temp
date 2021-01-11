@@ -6,6 +6,9 @@ module.exports = {
       transitionProperty: {
         'height': 'height',
         'width' : 'width'
+      },
+      fontFamily: {
+        'mina' : ['Mina','sans-serif']
       }
     },
   },
