@@ -8,13 +8,14 @@ module.exports = {
         'width' : 'width'
       },
       fontFamily: {
-        'mina' : ['Mina','sans-serif']
+        'mina': ['Mina', 'sans-serif'],
+        'baloo2' : ['Baloo Da 2', 'cursive']
       }
     },
   },
   variants: {
     extend: {
-      backgroundColor: ['first'],
+      backgroundColor: ['first','active'],
       gridColumn: ['first'],
       gridRow: ['first'],
       display: ['first'],

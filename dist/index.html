@@ -7,11 +7,12 @@
   <title>Biborton24.com || tailwindcss project</title>
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Mina:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="relative" x-data="{open: false}">
+<body class="relative font-baloo2" x-data="{open: false}">
   <header class="bg-white sticky top-0 md:relative">
     <div class="mx-auto p-2 sm:px-8 sm:py-3">
       <div class="flex justify-around md:justify-between md:items-center">
@@ -46,14 +47,13 @@
     <div class="flex flex-wrap text-sm lg:text-base mx-4 p-2">
       <a class="inline-block ml-2 border-b-2 border-white hover:border-red-600 hover:text-blue-700 transition-all duration-300 ease-linear"
         href="#">Home</a>
+      <a class="inline-block font-baloo2 ml-2 border-b-2 border-white hover:border-red-600 hover:text-blue-700"
+        href="pages/category/index.html">রাজনিতী</a>
       <a class="inline-block ml-2 border-b-2 border-white hover:border-red-600 hover:text-blue-700"
-        href="pages/category/index.html">Politics</a>
+        href="#">শিক্ষা</a>
       <a class="inline-block ml-2 border-b-2 border-white hover:border-red-600 hover:text-blue-700"
-        href="#">Education</a>
-      <a class="inline-block ml-2 border-b-2 border-white hover:border-red-600 hover:text-blue-700"
-        href="#">Lifestyle</a>
-      <a class="inline-block ml-2 border-b-2 border-white hover:border-red-600 hover:text-blue-700" href="#">Foreign
-        Affairs</a>
+        href="#">লাইফস্টাইল</a>
+      <a class="inline-block ml-2 border-b-2 border-white hover:border-red-600 hover:text-blue-700" href="#">বিদেশ</a>
     </div>
     <div class="border-b"></div>
   </nav>
@@ -106,7 +106,7 @@
         <input type="password"
           class="block mt-2 w-full bg-gray-100 rounded focus:bg-white focus:border-0 focus:ring-2 focus:ring-red-600"
           placeholder="Enter Your Password">
-        <button type="submit" class="block bg-red-600 p-2 text-white mt-2 rounded">Login</button>
+        <button type="submit" class="block bg-red-600 p-2 text-white mt-2 rounded hover:bg-red-700">Login</button>
       </form>
       <div class="text-center px-10 pb-4">
         <section class="text-center">Forgot Your Password? <a href="#"
@@ -299,6 +299,98 @@
           </ul>
         </section>
       </section>
+    </div>
+
+    <!-- /*TABBED SECTION*/ -->
+    <div class="container">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+          <div class="flex flex-col">
+              <section class="p-2 border-l-2 border-red-600 font-bold">Politics</section>
+              <section class="px-4 py-2">
+                <div class="flex justify-center border shadow-md mb-2">
+                    <section class="w-1/3 items-center flex justify-center">
+                        <img class="items-center w-full h-24" src="assets/hacker.jpg" alt="hacker">
+                    </section>
+                    <section class="w-2/3 p-4">
+                        This is title of the post!
+                    </section>
+                </div>
+                <div class="flex justify-center border shadow-md mb-2">
+                    <section class="w-1/3 items-center flex justify-center">
+                        <img class="items-center w-full h-24" src="assets/hacker.jpg" alt="hacker">
+                    </section>
+                    <section class="w-2/3 p-4">
+                        This is title of the post!
+                    </section>
+                </div>
+                <div class="flex justify-center border shadow-md mb-2">
+                    <section class="w-1/3 items-center flex justify-center">
+                        <img class="items-center w-full h-24" src="assets/hacker.jpg" alt="hacker">
+                    </section>
+                    <section class="w-2/3 p-4">
+                        This is title of the post!
+                    </section>
+                </div>
+              </section>
+          </div>
+          <div class="flex flex-col">
+              <section class="p-2 border-l-2 border-red-600 font-bold">Politics</section>
+              <section class="px-4 py-2">
+                <div class="flex justify-center border shadow-md mb-2">
+                    <section class="w-1/3 items-center flex justify-center">
+                        <img class="items-center w-full h-24" src="assets/hacker.jpg" alt="hacker">
+                    </section>
+                    <section class="w-2/3 p-4">
+                        This is title of the post!
+                    </section>
+                </div>
+                <div class="flex justify-center border shadow-md mb-2">
+                    <section class="w-1/3 items-center flex justify-center">
+                        <img class="items-center w-full h-24" src="assets/breaking.jpg" alt="hacker">
+                    </section>
+                    <section class="w-2/3 p-4">
+                        This is title of the post!
+                    </section>
+                </div>
+                <div class="flex justify-center border shadow-md mb-2">
+                    <section class="w-1/3 items-center flex justify-center">
+                        <img class="items-center w-full h-24" src="assets/hacker.jpg" alt="hacker">
+                    </section>
+                    <section class="w-2/3 p-4">
+                        This is title of the post!
+                    </section>
+                </div>
+              </section>
+          </div>
+          <div class="flex flex-col">
+              <section class="p-2 border-l-2 border-red-600 font-bold">Politics</section>
+              <section class="px-4 py-2">
+                <div class="flex justify-center border shadow-md mb-2">
+                    <section class="w-1/3 items-center flex justify-center">
+                        <img class="items-center w-full h-24" src="assets/breaking.jpg" alt="hacker">
+                    </section>
+                    <section class="w-2/3 p-4">
+                        This is title of the post!
+                    </section>
+                </div>
+                <div class="flex justify-center border shadow-md mb-2">
+                    <section class="w-1/3 items-center flex justify-center">
+                        <img class="items-center w-full h-24" src="assets/hacker.jpg" alt="hacker">
+                    </section>
+                    <section class="w-2/3 p-4">
+                        This is title of the post!
+                    </section>
+                </div>
+                <div class="flex justify-center border shadow-md mb-2">
+                    <section class="w-1/3 items-center flex justify-center">
+                        <img class="items-center w-full h-24" src="assets/breaking.jpg" alt="hacker">
+                    </section>
+                    <section class="w-2/3 p-4">
+                        This is title of the post!
+                    </section>
+                </div>
+              </section>
+          </div>
     </div>
   </main>
 
